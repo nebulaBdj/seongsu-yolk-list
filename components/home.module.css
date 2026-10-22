@@ -1,0 +1,141 @@
+/* 홈 (design/Main.dc.html) */
+.title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--on-cobalt-sub);
+}
+
+.gloss {
+  margin: 0;
+  font-size: 11.5px;
+  line-height: 1.5;
+  color: var(--on-cobalt-sub);
+}
+
+.gloss b {
+  font-family: var(--font-receipt), monospace;
+  color: #ffffff;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--yolk);
+  color: var(--black);
+  border-radius: 10px;
+  padding: 9px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.welcome svg {
+  flex: none;
+}
+
+/* 탭이 화면보다 넓으면 옆으로 민다 */
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin: 0 -20px;
+  padding: 0 20px 2px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tab {
+  flex: none;
+  height: 44px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1.5px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
+  font-family: var(--font-mono), monospace;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tab[aria-pressed="true"] {
+  background: #ffffff;
+  color: var(--cobalt);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 16px 20px 28px;
+}
+
+.hidden {
+  display: none;
+}
+
+.showMore {
+  height: 48px;
+  border: 2px solid var(--ink);
+  border-radius: 12px;
+  background: transparent;
+  font-family: var(--font-mono), monospace;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.nameDraw {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: var(--cobalt);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nameDraw strong {
+  display: block;
+  font-size: 14px;
+}
+
+.nameDraw small {
+  display: block;
+  font-size: 12px;
+  color: var(--on-cobalt-sub);
+}
+
+.nameDrawArrow {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer {
+  margin: 4px 0 0;
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--ink-sub);
+  text-align: center;
+}
+
+.footer a {
+  font-weight: 700;
+  color: var(--ink);
+}
