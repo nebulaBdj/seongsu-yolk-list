@@ -80,7 +80,7 @@
 - 머리줄: 노른자 로고 + `THE YOLK LIST`, 오른쪽 `@seoul.yolk`(인스타 링크)
 - 노른자 환영 배너 `Got your newspaper photo? Here's where to eat next in Seongsu.` — **신문 사진 QR로 들어온 경우만** 보인다(첫 진입 `utm_source=newspaper`를 sessionStorage에 기억). 정적 HTML에는 넣지 않는다.
 - 제목(h1) `Where to eat in Seongsu`
-- 부제 **(바꿈)** `Only the yolk: local favorites Korean diners rate highly, and what to order at each.` — 시안의 'how long the line is…'는 웨이팅 데이터가 없어 뺀다.
+- 부제 **(바꿈)** `Only the yolk: local restaurants Korean diners rate highly, and what to order at each.` — 시안의 'how long the line is…'는 웨이팅 데이터가 없어 뺀다.
 - 말 풀이 상자: 시안의 `노른자 no-reun-ja = egg yolk, Korean slang for “the best part”.` 아래에 **한 줄 추가** `로컬 찐 맛집 lo-kal jjin mat-jip = a real-deal local favorite. Every pick here is one.`
 - 카테고리 탭 **(바꿈)**: `ALL` `KOREAN BBQ` `SOUP` `NOODLES` `BAR` `BAKERY` (`categories` 순서). 누르면 그 카테고리 카드만 보인다. 로컬 상태라 주소는 바뀌지 않는다. 탭 높이 44px 이상.
 - `LIST` / `MAP` 토글: `/` ↔ `/map` 링크
@@ -318,16 +318,16 @@ export const GSC_VERIFICATION = process.env.NEXT_PUBLIC_GSC_VERIFICATION; // Sea
 ## 12. SEO
 
 ### 12-1. 검색어 목표
-- 주: `where to eat in Seongsu`, `Seongsu restaurants`, `Seongsu food guide`
+- 주: `where to eat in Seongsu`, `Seongsu local restaurants`, `Seongsu restaurants`, `local food in Seongsu`, `Seongsu food guide`
 - 보조: `Korean BBQ Seongsu`, `Seongsu bakery`, `Seoul Forest restaurants`, 가게 이름 검색(`Menya Pomo Seoul Forest` 등)
 
 ### 12-2. 메타데이터 (Next.js `metadata` / `generateMetadata`)
 
 | 페이지 | title | description |
 | --- | --- | --- |
-| `/` | Where to Eat in Seongsu: 14 Local Favorites \| The Yolk List | 14 Seongsu restaurants, bars and bakeries Korean diners rate highly, with what to order at each and one-tap Google Maps directions. |
-| `/places/[slug]` | {nameEn} ({nameKo}) — {category.title} in Seongsu \| The Yolk List | {oneLiner.en}. What to order, how to say it in Korean and the address to show your taxi driver. |
-| `/map` | Seongsu Food Map: 14 Local Picks \| The Yolk List | All 14 local picks on one map of Seongsu, from Seoul Forest to Seongsu Station. |
+| `/` | Where to Eat in Seongsu: 13 Local Restaurants \| The Yolk List | 13 local restaurants, bars and bakeries in Seongsu, Seoul that Korean diners rate highly. Real local food, what to order at each and one-tap Google Maps directions. |
+| `/places/[slug]` | {nameEn} ({nameKo}) — Local {category.title} in Seongsu \| The Yolk List | {oneLiner.en}. What to order, how to say it in Korean and the address to show your taxi driver. |
+| `/map` | Seongsu Food Map: 13 Local Restaurants \| The Yolk List | All 13 local restaurants on one map of Seongsu, from Seoul Forest to Seongsu Station. |
 
 - 모든 페이지: canonical(쿼리 없는 주소), `<html lang="en">`, Open Graph·Twitter(`summary_large_image`), theme-color `#2D46F5`, 파비콘·apple-touch-icon(노른자 로고)
 - 페이지마다 h1은 하나. 가게 한글 이름은 이미지가 아닌 텍스트로.

@@ -13,8 +13,8 @@ import { categories, places } from "@/lib/places";
 const count = places.length;
 
 export const metadata: Metadata = {
-  title: { absolute: `Where to Eat in Seongsu: ${count} Local Favorites | The Yolk List` },
-  description: `${count} Seongsu restaurants, bars and bakeries Korean diners rate highly, with what to order at each and one-tap Google Maps directions.`,
+  title: { absolute: `Where to Eat in Seongsu: ${count} Local Restaurants | The Yolk List` },
+  description: `${count} local restaurants, bars and bakeries in Seongsu, Seoul that Korean diners rate highly. Real local food, what to order at each and one-tap Google Maps directions.`,
   alternates: { canonical: "/" },
   openGraph: { url: "/" },
 };
@@ -53,7 +53,7 @@ export default function Home() {
               in Seongsu
             </h1>
             <p className={styles.subtitle}>
-              Only the yolk: local favorites Korean diners rate highly, and what to order at each.
+              Only the yolk: local restaurants Korean diners rate highly, and what to order at each.
             </p>
             <div>
               <p className={styles.gloss}>

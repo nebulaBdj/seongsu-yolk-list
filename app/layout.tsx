@@ -7,7 +7,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: { default: "Where to Eat in Seongsu | The Yolk List", template: "%s | The Yolk List" },
-  description: "Seongsu restaurants, bars and bakeries Korean diners rate highly, with what to order at each.",
+  description: "Local restaurants, bars and bakeries in Seongsu that Korean diners rate highly, with what to order at each.",
   openGraph: { siteName: SITE.name, type: "website", locale: "en_US" },
   twitter: { card: "summary_large_image" },
   verification: GSC_VERIFICATION ? { google: GSC_VERIFICATION } : undefined,

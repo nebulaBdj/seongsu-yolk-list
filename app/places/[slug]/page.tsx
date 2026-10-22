@@ -27,7 +27,7 @@ type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const place = getPlace((await params).slug);
   if (!place) return {};
-  const title = `${place.nameEn} (${place.nameKo}) — ${getCategory(place.category).title} in Seongsu`;
+  const title = `${place.nameEn} (${place.nameKo}) — Local ${getCategory(place.category).title} in Seongsu`;
   const description = `${place.oneLiner.en}. What to order, how to say it in Korean and the address to show your taxi driver.`;
   const url = `/places/${place.slug}`;
   return {

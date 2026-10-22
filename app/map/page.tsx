@@ -9,8 +9,8 @@ import { googleMapsUrl } from "@/lib/maps";
 import { getCategory, landmarks, placeNo, places } from "@/lib/places";
 
 export const metadata: Metadata = {
-  title: { absolute: `Seongsu Food Map: ${places.length} Local Picks | The Yolk List` },
-  description: `All ${places.length} local picks on one map of Seongsu, from Seoul Forest to Seongsu Station.`,
+  title: { absolute: `Seongsu Food Map: ${places.length} Local Restaurants | The Yolk List` },
+  description: `All ${places.length} local restaurants on one map of Seongsu, from Seoul Forest to Seongsu Station.`,
   alternates: { canonical: "/map" },
   openGraph: { url: "/map" },
 };
