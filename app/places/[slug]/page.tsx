@@ -98,7 +98,7 @@ export default async function PlacePage({ params }: Props) {
             <Dash />
             <div className={styles.label}>WHAT TO ORDER · 추천 메뉴</div>
             {place.order.map((item) => (
-              <Leader key={item.en} label={`1 × ${item.en}`} value={item.ko} />
+              <Leader key={item.en} label={`1 × ${item.en}`} value={item.ko} keepValue />
             ))}
 
             <Dash />

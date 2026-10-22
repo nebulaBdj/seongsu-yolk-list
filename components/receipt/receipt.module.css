@@ -39,6 +39,11 @@
   text-align: right;
 }
 
+.keep {
+  flex: none;
+  white-space: nowrap;
+}
+
 .badge,
 .chip {
   display: inline-flex;
