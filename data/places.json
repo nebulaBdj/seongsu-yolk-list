@@ -1,0 +1,423 @@
+{
+  "categories": [
+    {
+      "id": "bbq",
+      "en": "KOREAN BBQ",
+      "title": "Korean BBQ",
+      "ko": "고기"
+    },
+    {
+      "id": "soup",
+      "en": "SOUP",
+      "title": "Soup",
+      "ko": "국물"
+    },
+    {
+      "id": "noodles",
+      "en": "NOODLES",
+      "title": "Noodles",
+      "ko": "면"
+    },
+    {
+      "id": "bar",
+      "en": "BAR",
+      "title": "Bar",
+      "ko": "술집"
+    },
+    {
+      "id": "bakery",
+      "en": "BAKERY",
+      "title": "Bakery",
+      "ko": "빵"
+    }
+  ],
+  "places": [
+    {
+      "slug": "nunkkot-dwaeji",
+      "category": "bbq",
+      "nameEn": "Nunkkot Dwaeji",
+      "nameKo": "눈꽃돼지",
+      "order": [
+        {
+          "en": "Thick-cut pork belly & neck",
+          "ko": "삼겹살·목살"
+        }
+      ],
+      "oneLiner": {
+        "en": "Thick, juicy pork grilled at your table by friendly staff",
+        "ko": "직원이 직접 구워주는 두툼하고 육즙 많은 돼지고기"
+      },
+      "address": "왕십리로8길 17-4",
+      "floor": "1층",
+      "lat": 37.5462255,
+      "lng": 127.04671673,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "anmok-sous-vide",
+      "category": "bbq",
+      "nameEn": "Anmok Sous-vide Pork",
+      "nameKo": "안목 수비드목살구이",
+      "order": [
+        {
+          "en": "Sous-vide pork neck",
+          "ko": "수비드 목살"
+        }
+      ],
+      "oneLiner": {
+        "en": "Sous-vide pork neck grilled for you; friendly staff, clean interior",
+        "ko": "직원이 구워주는 수비드 목살, 친절한 응대와 깔끔한 매장"
+      },
+      "address": "상원12길 34",
+      "floor": "1층 110호",
+      "lat": 37.54958208,
+      "lng": 127.05022579,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "jangsu-ori",
+      "category": "bbq",
+      "nameEn": "Jangsu Ori Samgyeop",
+      "nameKo": "장수오리생삼겹",
+      "order": [
+        {
+          "en": "Fresh pork belly",
+          "ko": "생삼겹살"
+        },
+        {
+          "en": "Spicy stir-fried duck",
+          "ko": "오리주물럭"
+        }
+      ],
+      "oneLiner": {
+        "en": "Friendly owner, fair prices and a roomy, clean dining room",
+        "ko": "친절한 사장님, 합리적인 가격, 넓고 깔끔한 매장"
+      },
+      "address": "왕십리로6길 2",
+      "floor": "1층",
+      "lat": 37.54612885,
+      "lng": 127.04502041,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "food-gallery-bean",
+      "category": "soup",
+      "nameEn": "Food Gallery Bean",
+      "nameKo": "푸드갤러리빈",
+      "order": [
+        {
+          "en": "Braised tofu with beef brisket",
+          "ko": "차돌두부조림"
+        }
+      ],
+      "oneLiner": {
+        "en": "Clean-tasting tofu dishes; the crispy fried tofu is also praised",
+        "ko": "깔끔한 맛의 두부 요리, 바삭한 두부 튀김도 호평"
+      },
+      "address": "왕십리로6길 19-7",
+      "floor": "1층",
+      "lat": 37.54591193,
+      "lng": 127.04676859,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "kamoto",
+      "category": "soup",
+      "nameEn": "Kamoto",
+      "nameKo": "카모토",
+      "order": [
+        {
+          "en": "Duck gomtang, clear duck soup with rice",
+          "ko": "오리곰탕"
+        }
+      ],
+      "oneLiner": {
+        "en": "Clear duck soup over rice, no gamey taste, generous portions",
+        "ko": "잡내 없이 맑고 깔끔한 국물의 오리곰탕, 양도 넉넉"
+      },
+      "address": "상원6길 6",
+      "floor": "1층",
+      "lat": 37.54850147,
+      "lng": 127.04882185,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "yangpyeong-haejangguk-ttukdo",
+      "category": "soup",
+      "nameEn": "The Yangpyeong Haejangguk (Ttukdo Market)",
+      "nameKo": "더양평해장국 뚝도시장점",
+      "order": [
+        {
+          "en": "Hangover soup with tripe & blood curd",
+          "ko": "해장국"
+        }
+      ],
+      "oneLiner": {
+        "en": "Generous tripe & blood-curd portions; clean shop in Ttukdo Market",
+        "ko": "선지·천엽 건더기가 푸짐한 시장 속 해장국집, 매장도 깔끔"
+      },
+      "address": "성덕정길 95-13",
+      "floor": "1층",
+      "lat": 37.53796562,
+      "lng": 127.05401182,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "eunjun-pho",
+      "category": "noodles",
+      "nameEn": "Eunjun Pho",
+      "nameKo": "은준쌀국수",
+      "order": [
+        {
+          "en": "Beef pho",
+          "ko": "소고기 쌀국수"
+        },
+        {
+          "en": "Fried spring rolls",
+          "ko": "짜조"
+        }
+      ],
+      "oneLiner": {
+        "en": "Slow-simmered mild broth, crispy spring rolls and friendly staff",
+        "ko": "푹 끓인 순한 국물과 바삭한 짜조, 친절한 직원"
+      },
+      "address": "왕십리로5길 9-2",
+      "floor": "2층",
+      "lat": 37.5468608,
+      "lng": 127.04410991,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "menya-pomo-seoul-forest",
+      "category": "noodles",
+      "nameEn": "Menya Pomo (Seoul Forest)",
+      "nameKo": "멘야포모 서울숲점",
+      "order": [
+        {
+          "en": "Tomato ramen",
+          "ko": "토마토라멘"
+        }
+      ],
+      "oneLiner": {
+        "en": "Pasta-like tomato ramen; leftover broth becomes cheese risotto",
+        "ko": "토마토 파스타 같은 색다른 라멘, 남은 국물엔 치즈 리조또"
+      },
+      "address": "서울숲4길 28",
+      "floor": "2층",
+      "lat": 37.5469546,
+      "lng": 127.04384291,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "musaek",
+      "category": "bar",
+      "nameEn": "Musaek",
+      "nameKo": "무색",
+      "order": [
+        {
+          "en": "Dry-aged sashimi platter",
+          "ko": "숙성 사시미 모리아와세"
+        }
+      ],
+      "oneLiner": {
+        "en": "Calm, upscale izakaya good for dates, known for dry-aged sashimi",
+        "ko": "조용하고 고급스러운 분위기, 데이트에 좋은 숙성회 이자카야"
+      },
+      "address": "상원2길 1-10",
+      "floor": "2층",
+      "lat": 37.54620461,
+      "lng": 127.04932844,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "gamyo",
+      "category": "bar",
+      "nameEn": "Gamyo",
+      "nameKo": "감요",
+      "order": [
+        {
+          "en": "Beef short rib bourguignon",
+          "ko": "왕갈비 부루기뇽"
+        }
+      ],
+      "oneLiner": {
+        "en": "Quiet spot; reviewers praise the food and friendly service",
+        "ko": "조용한 분위기, 음식 맛과 친절한 응대 평이 좋음"
+      },
+      "address": "왕십리로4길 28-8",
+      "floor": "2층",
+      "lat": 37.54710126,
+      "lng": 127.04673086,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "yakitori-naruto-seongsu",
+      "category": "bar",
+      "nameEn": "Yakitori Naruto Seongsu",
+      "nameKo": "야키토리나루토 성수",
+      "order": [
+        {
+          "en": "Chicken meatball skewer (tsukune)",
+          "ko": "츠쿠네"
+        },
+        {
+          "en": "Mackerel pot rice",
+          "ko": "고등어솥밥"
+        }
+      ],
+      "oneLiner": {
+        "en": "Smoky charcoal skewers and mackerel pot rice get the praise",
+        "ko": "숯불향 살아있는 꼬치와 고등어솥밥이 맛있다는 평이 많음"
+      },
+      "address": "왕십리로14길 12",
+      "floor": "1층",
+      "lat": 37.54906968,
+      "lng": 127.04507876,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "seongsu-baking-studio",
+      "category": "bakery",
+      "nameEn": "Seongsu Baking Studio",
+      "nameKo": "성수베이킹스튜디오",
+      "order": [
+        {
+          "en": "Baguette",
+          "ko": "바게트"
+        },
+        {
+          "en": "Jambon-beurre sandwich",
+          "ko": "잠봉뵈르"
+        }
+      ],
+      "oneLiner": {
+        "en": "Often praised for its baguettes and simple, hearty breads",
+        "ko": "바게트 등 담백한 식사빵이 맛있다는 평이 많음"
+      },
+      "address": "서울숲2길 46",
+      "floor": "지하1층",
+      "lat": 37.54618518,
+      "lng": 127.04375872,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    },
+    {
+      "slug": "hanip-bagel",
+      "category": "bakery",
+      "nameEn": "Hanip Bagel",
+      "nameKo": "한입베이글",
+      "order": [
+        {
+          "en": "Bite-sized bagels",
+          "ko": "한입 베이글"
+        }
+      ],
+      "oneLiner": {
+        "en": "Bite-sized bagels let you sample many flavors in one visit",
+        "ko": "한입 크기라 여러 맛을 골고루 맛볼 수 있다는 평이 많음"
+      },
+      "address": "뚝섬로 317",
+      "floor": "1층",
+      "lat": 37.54136749,
+      "lng": 127.04625204,
+      "checks": {
+        "englishMenu": null,
+        "foreignCards": null,
+        "soloOk": null,
+        "waitlistApp": null
+      }
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "ttukseom-stn",
+      "en": "TTUKSEOM STN",
+      "kind": "station",
+      "line": "2",
+      "lat": 37.54724155,
+      "lng": 127.04738728
+    },
+    {
+      "id": "seongsu-stn",
+      "en": "SEONGSU STN",
+      "kind": "station",
+      "line": "2",
+      "lat": 37.54458882,
+      "lng": 127.056067
+    },
+    {
+      "id": "seoul-forest-stn",
+      "en": "SEOUL FOREST STN",
+      "kind": "station",
+      "line": "suin-bundang",
+      "lat": 37.5436458,
+      "lng": 127.04474622
+    },
+    {
+      "id": "popup",
+      "en": "OUR POP-UP",
+      "kind": "popup",
+      "lat": 37.54281363,
+      "lng": 127.05836496
+    }
+  ]
+}
