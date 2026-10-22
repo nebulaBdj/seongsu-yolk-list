@@ -1,6 +1,6 @@
 # seongsu-yolk-list
 
-Seoul Yolk의 성수 맛집 가이드 'The Yolk List'. 성수에 온 외국인이 '로컬 찐 맛집' 14곳을 카테고리별로 고르고 구글 지도로 찾아가게 하는 사이트다. 무엇을 만드는지는 `SPEC.md`, 화면은 `design/` 폴더(첫 시안), 가게 내용은 `data/places.json`이 기준이다.
+Seoul Yolk의 성수 맛집 가이드 'The Yolk List'. 성수에 온 외국인이 '로컬 찐 맛집' 13곳을 카테고리별로 고르고 구글 지도로 찾아가게 하는 사이트다. 무엇을 만드는지는 `SPEC.md`, 화면은 `design/` 폴더(첫 시안), 가게 내용은 `data/places.json`이 기준이다.
 
 맥락: StartupXperience 26-2기 써니사이드업(AI 신문 포토부스) A팀 프로젝트다. 팀은 매출로 평가받는다. 이 사이트는 인스타 @seoul.yolk의 콘텐츠이자, 팝업 부스와 이름 뽑기 사이트로 잇는 입구이고, 식당 제휴(숍인숍) 제안 자료를 쌓는 도구다. 자세한 건 `SPEC.md` §0.
 
@@ -23,7 +23,7 @@ Seoul Yolk의 성수 맛집 가이드 'The Yolk List'. 성수에 온 외국인�
 ```
 app/
   page.tsx                 홈: 목록 (design/Main)
-  places/[slug]/page.tsx   상세: 주문서 영수증 14개 (design/Detail)
+  places/[slug]/page.tsx   상세: 주문서 영수증 13개 (design/Detail)
   map/page.tsx             지도 (design/Map)
   sitemap.ts  robots.ts  opengraph-image.tsx
 components/receipt/        Slot, Paper, Leader, Dash, Barcode, Zigzag, Badge …
@@ -42,7 +42,7 @@ design/                    디자인 참고 파일 (첫 시안)
 - localStorage·sessionStorage 접근은 `lib/storage.ts` 한 곳에서 try/catch로 감싼다.
 
 ## SEO 규칙 (SPEC §12)
-- 검색엔진이 보는 HTML에 14곳의 본문이 모두 들어가야 한다. 클라이언트 컴포넌트는 카테고리 탭·SHOW MORE·지도 핀 선택·발음·환영 배너만.
+- 검색엔진이 보는 HTML에 13곳의 본문이 모두 들어가야 한다. 클라이언트 컴포넌트는 카테고리 탭·SHOW MORE·지도 핀 선택·발음·환영 배너만.
 - 크롤링되는 `<a href>`에 쿼리 파라미터 금지. UTM은 외부 링크에만.
 - 페이지마다 metadata(title·description·canonical·OG), h1은 하나.
 - 한글 폰트는 `next/font`로 불러오고 preload를 끈다.

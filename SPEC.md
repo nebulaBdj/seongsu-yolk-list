@@ -4,6 +4,8 @@
 > 사이트 안의 문구는 영어(외국인 대상), 이 문서와 코드 주석은 한국어.
 > **화면 디자인의 기준은 `design/` 폴더(첫 시안)**, 가게 내용의 기준은 `data/places.json`이다. 시안 속 가게(Zesty Saloon, 간판없는 집 등)와 웨이팅·가격 문구는 예시라 쓰지 않는다.
 
+> **결정 사항 (2026-10-22, §14 답):** 주소는 `https://seongsu-local-eats.vercel.app`(성수 현지 맛집이 드러나게, Vercel 프로젝트 `seongsu-local-eats`). 뺑드에코는 넣지 않아 **13곳**(빵 2곳)이고, 아래 '14곳'은 13곳으로 읽는다. 영문 이름은 식당 이름 그대로. 팝업 표시 켬. 저장소는 공개 `nebulaBdj/seongsu-yolk-list`, Vercel은 개인 hwangs-projects.
+
 ## 0. 프로젝트 맥락
 
 - **누가:** 숭실대 창업동아리 시너지의 기업 연계 프로그램 StartupXperience 26-2기에서 **써니사이드업 A팀**이 만든다. 팀은 **매출**로 평가받는다.
@@ -195,7 +197,7 @@
 
 ```ts
 export const SITE = {
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://seongsu-yolk-list.vercel.app", // canonical·sitemap 기준 주소
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://seongsu-local-eats.vercel.app", // canonical·sitemap 기준 주소
   name: "The Yolk List",
   brand: "Seoul Yolk",
   instagram: "https://instagram.com/seoul.yolk",
@@ -379,7 +381,7 @@ Claude Code는 시작하자마자 GitHub·Vercel 로그인(`gh auth status`, `ve
 
 | # | 질문 | 기본값 |
 | --- | --- | --- |
-| 1 | 사이트 주소는? (도메인을 살 거면 Search Console 등록 전에 정한다. 이름 뽑기 사이트와 한 도메인 아래 `/eat`으로 합치는 방법도 있다) | Vercel 기본 주소(`https://seongsu-yolk-list.vercel.app`, 이미 쓰이고 있으면 Vercel이 정한 주소) |
+| 1 | 사이트 주소는? (도메인을 살 거면 Search Console 등록 전에 정한다. 이름 뽑기 사이트와 한 도메인 아래 `/eat`으로 합치는 방법도 있다) | Vercel 기본 주소(`https://seongsu-local-eats.vercel.app`, 이미 쓰이고 있으면 Vercel이 정한 주소) |
 | 2 | 이름 뽑기 사이트 주소는? | `https://korean-name-draw.vercel.app` |
 | 3 | 영문 이름 `Food Gallery Bean`(푸드갤러리빈)·`Pain de Eco`(뺑드에코)를 이대로 쓸까? | 이대로. 나중에 바뀌어도 slug는 그대로 두고 표시 이름만 바꾼다 |
 | 4 | 뺑드에코를 넣을까? ('영업 일시 중단' 공지를 낸 적이 있음, 날짜 불명) | 넣는다 |
