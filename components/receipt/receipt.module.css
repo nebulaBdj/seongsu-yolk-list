@@ -1,0 +1,70 @@
+/* 영수증 부품 (SPEC §8-3) */
+.slot {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 16px;
+  flex: none;
+  border-radius: 8px;
+  background: var(--slot);
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.55);
+}
+
+/* 종이 아래 톱니: 꼭짓점이 아래를 향한 삼각형 반복 */
+.zigzag {
+  height: 9px;
+  margin-top: -1px;
+  background: conic-gradient(from -34.8deg at 50% 100%, var(--paper) 69.6deg, transparent 0) 0 0 repeat-x;
+}
+
+.dash {
+  border-top: 1.5px dashed var(--ink);
+  margin: 8px 0 6px;
+}
+
+.leader {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.leaderLine {
+  flex: 1 1 12px;
+  min-width: 12px;
+  border-bottom: 1.5px dotted var(--ink);
+}
+
+.leaderValue {
+  font-weight: 700;
+  text-align: right;
+}
+
+.badge,
+.chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  font-family: var(--font-mono), monospace;
+  font-size: 10.5px;
+  font-weight: 700;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+/* 한글 뱃지라 영수증 폰트로 */
+.badge {
+  background: var(--yolk);
+  color: var(--ink);
+  padding: 1px 8px;
+  font-family: var(--font-receipt), monospace;
+}
+
+.chip {
+  border: 1.5px solid var(--ink);
+  padding: 0 7px;
+}
+
+.barcode {
+  display: flex;
+  justify-content: center;
+}
